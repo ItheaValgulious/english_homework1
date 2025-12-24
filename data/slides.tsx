@@ -3,11 +3,11 @@ import { SlideData } from '../types';
 
 // Images are referenced from the project root
 const imgGirlfriend = '/img/image.png';
-const imgProcess = 'image-1.png';
-const imgFramework = 'framework.png';
-const imgCurve = 'image-2.png';
-const imgResults = 'image-3.png';
-const imgMore = 'image-4.png';
+const imgProcess = '/img/image-1.png';
+const imgFramework = '/img/framework.png';
+const imgCurve = '/img/image-2.png';
+const imgResults = '/img/image-3.png';
+const imgMore = '/img/image-4.png';
 
 // Helper for image placeholders
 const SlideImage = ({ src, alt, caption }: { src: string, alt: string, caption?: string }) => (
