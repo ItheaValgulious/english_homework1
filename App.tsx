@@ -28,7 +28,7 @@ const App: React.FC = () => {
                 Memory<span className="text-blue-500">Bank</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-400 mb-12 font-light">
-                Enhancing Large Language Models with Long-Term Memory
+                Presenter:Kong Dewei and ???
               </p>
               
               <div className="inline-flex items-center gap-4 text-blue-400 text-xl font-bold uppercase tracking-widest animate-pulse">
