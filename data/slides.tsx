@@ -2,12 +2,12 @@ import React from 'react';
 import { SlideData } from '../types';
 
 // Images are referenced from the project root
-const imgGirlfriend = '/img/image.png';
-const imgProcess = '/img/image-1.png';
-const imgFramework = '/img/framework.png';
-const imgCurve = '/img/image-2.png';
-const imgResults = '/img/image-3.png';
-const imgMore = '/img/image-4.png';
+const imgGirlfriend = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb286.png';
+const imgProcess = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb285.png';
+const imgFramework = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb283.png';
+const imgCurve = 'https://pic1.imgdb.cn/item/694ba8d1b4105c208abfb281.png';
+const imgResults = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb282.png';
+const imgMore = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb284.png';
 
 // Helper for image placeholders
 const SlideImage = ({ src, alt, caption }: { src: string, alt: string, caption?: string }) => (
