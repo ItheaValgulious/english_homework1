@@ -1,0 +1,5 @@
+{
+  "name": "MemoryBank 3D Presentation",
+  "description": "An interactive, 3D Impress.js-style presentation about MemoryBank and LLMs featuring a robot assistant.",
+  "requestFramePermissions": []
+}
