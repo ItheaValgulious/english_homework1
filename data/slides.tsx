@@ -8,6 +8,7 @@ const imgFramework = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb283.png';
 const imgCurve = 'https://pic1.imgdb.cn/item/694ba8d1b4105c208abfb281.png';
 const imgResults = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb282.png';
 const imgMore = 'https://pic1.imgdb.cn/item/694ba8d2b4105c208abfb284.png';
+const imgPaper = 'https://pic1.imgdb.cn/item/694c9547b4105c208ac2a7f6.png';
 
 // Helper for image placeholders
 const SlideImage = ({ src, alt, caption }: { src: string, alt: string, caption?: string }) => (
@@ -113,6 +114,7 @@ export const SLIDES: SlideData[] = [
         <h1 className="text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
           Memory Bank!
         </h1>
+        <SlideImage src={imgPaper} alt="Paper" caption="" />
       </div>
     )
   },
